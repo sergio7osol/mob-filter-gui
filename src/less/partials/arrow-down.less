@@ -1,0 +1,18 @@
+.arrow-down {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transform-origin: center center;
+    transition: transform .3s ease-in-out;
+    &--on-dark-bg {
+        border-right-color: #fff;
+        border-bottom-color: #fff;
+    }
+    &--up {
+        transform: rotate(225deg);
+    }
+}
