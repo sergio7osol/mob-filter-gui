@@ -3,5 +3,7 @@ GUI with multiple sections for a mobile filter page
 
 Prerequisites: 
 - installed yarn
+
+Commands:
 - yarn (install all the needed packages)
 - yarn start (start the project with webpack-dev-server)
